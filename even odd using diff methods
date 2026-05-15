@@ -1,0 +1,50 @@
+
+public class odd {
+
+    public static void main(String[] args) {
+        // method 1 
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // if(n%2==0){
+        //     System.out.println("even number");
+        // }
+        // else {
+        //     System.out.println("odd number");
+        // }
+
+        // METHOD-2 
+        // find last digit and check 
+        //    int x = 78594;
+        //    int z = x%10;
+        //    if(z%2==0){
+        //     System.out.println("even");
+        //    }
+        //    else {
+        //     System.out.println("odd");
+        //    }
+       // METHOD-3
+        // int x = 13;
+        // if ((x & 1) == 0) {
+        //     System.out.println("even");
+        // } else {
+        //     System.out.println("odd");
+        // }
+        //METHOD-4
+        int  x = 23;
+        int y = x/2;
+        int z = y*2; 
+         if(x==z){
+             System.out.println("even");
+
+         }
+          else {
+               System.out.println("odd");
+
+          }
+       
+
+
+
+    }
+
+}
